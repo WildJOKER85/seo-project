@@ -1,0 +1,345 @@
+.side__column {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 897px;
+    padding-left: 30px;
+    padding-top: 10px;
+    gap: 15px;
+}
+
+.search__bar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 348px;
+    height: 39px;
+    background: #EBEEF0;
+    padding-left: 16px;
+    border-radius: 99999px;
+}
+
+.search__bar p {
+    width: 120px;
+    height: 19px;
+    font-family: SF Compact Display, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.011em;
+    color: #5B7083;
+    padding-left: 15px;
+}
+
+.news__contain {
+    width: 350px;
+    height: 457px;
+    border-radius: 16px;
+    background: #F7F9FA;
+    padding-bottom: 15px;
+}
+
+.news__header {
+    width: 350px;
+    height: 46px;
+    background: #F7F9FA;
+    border-radius: 16px;
+}
+
+.header__text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 24px;
+    padding-left: 16px;
+    padding-top: 22px;
+}
+
+.header__text p {
+    /* What’s happening */
+    display: flex;
+    align-items: center;
+    font-family: SF Compact Display, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.004em;
+    color: #0F1419;
+}
+
+.news__block {
+    display: flex;
+    justify-content: flex-start;
+    width: 350px;
+    height: 120px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    gap: 18px;
+}
+
+.text__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 235px;
+    height: 100px;
+}
+
+.top__text {
+    width: 140px;
+    height: 17px;
+}
+
+.top__text p {
+    font-family: SF Compact Display, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5B7083;
+}
+
+.top__text span {
+    font-family: SF Compact Display, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5B7083;
+}
+
+.top__text__two span {
+    font-family: SF Compact Display, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5B7083;
+}
+
+.top__text span:nth-child(2) {
+    padding-left: 22px;
+}
+
+.middle__text {
+    width: 240px;
+    height: 54px;
+}
+
+.middle__text p {
+    font-family: SF Compact Display, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #0F1419;
+}
+
+.bot__text {
+    width: 165px;
+    height: 17px;
+}
+
+.bot__text span:first-child {
+    font-family: SF Compact Display, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #5B7083;
+}
+
+.bot__text span:nth-child(2) {
+    font-family: SF Compact Display, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #1DA1F2;
+}
+
+.media__block {
+    width: 71px;
+    height: 69px;
+}
+
+.media__block img {
+    width: 71px;
+    height: 69px;
+    border-radius: 12px;
+}
+
+.divider {
+    width: 350px;
+    height: 1px;
+    background: #EBEEF0;
+}
+
+.show__thread {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 240px;
+    width: 350px;
+    height: 48px;
+}
+
+.show__thread p {
+    font-family: SF Compact Display, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1DA1F2;
+}
+
+.dark__theme {
+    width: 19px;
+    height: 19px;
+}
+
+.group {
+    width: 15.64px;
+    height: 15.64px;
+}
+
+.dark__theme svg {
+    width: 15.64px;
+    height: 15.64px;
+    color: #5B7083;
+}
+
+.news__header {
+    width: 350px;
+    height: 46px;
+}
+
+.follow {
+    width: 350px;
+    height: 234px;
+    border-radius: 16px;
+    background: #F7F9FA;
+}
+
+.follow__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 350px;
+    height: 46px;
+    padding-left: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.follow__header p {
+    font-family: SF Compact Display, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0F1419;
+}
+
+.profile__one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 70px;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+}
+
+.avatar__medium {
+    width: 49px;
+    height: 49px;
+}
+
+.avatar__medium img {
+    width: 48px;
+    height: 48px;
+    border-radius: 99999px;
+}
+
+.profile__info p:first-child {
+    font-family: SF Compact Display, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0F1419;
+}
+
+.profile__info p:nth-child(2) {
+    font-family: SF Compact Display, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: -0.017em;
+    text-align: left;
+    color: #5B7083;
+}
+
+.button__follow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    border-radius: 9999px;
+    border: 1px solid #1DA1F2;
+}
+
+.button__follow p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 19px;
+    font-family: SF Compact Display, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1DA1F2;
+}
+
+.terms__of__servicet__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    width: 350px;
+    height: 38px;
+}
+
+
+.terms__of__servicet__text p {
+    font-family: SF Compact Display, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5B7083;
+}

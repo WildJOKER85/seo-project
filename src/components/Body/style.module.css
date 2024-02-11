@@ -1,0 +1,29 @@
+.header {
+    width: 598px;
+    height: 53px;
+    /* background-color: rgb(235, 154, 154); */
+}
+
+.inside__header__text {
+    color: var(--Black, #0F1419);
+    font-family: "SF Compact Display", sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.inside__header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.divider {
+    width: 598px;
+    height: 1px;
+    background: #EBEEF0;
+}

@@ -1,0 +1,204 @@
+.tweet__two {
+    display: flex;
+    width: 598px;
+    height: 379px;
+    padding: 0px 1px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+    /* background-color: #38d638; */
+}
+
+.container {
+    display: flex;
+    width: 584px;
+    height: 369px;
+    padding: 0px 15px;
+    align-items: flex-start;
+    gap: 10px;
+    /* background-color: #450d8d; */
+}
+
+.said {
+    display: flex;
+    height: 369px;
+    width: 49px;
+    align-items: flex-start;
+    align-self: stretch;
+    /* background-color: #3dddad; */
+}
+
+.avatar__medium {
+    display: flex;
+    width: 49px;
+    height: 49px;
+    padding: 1px 1px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar__medium img {
+    width: 48px;
+    height: 48px;
+    /* flex-shrink: 0; */
+    border-radius: 99999px;
+    background-size: contain;
+}
+
+.main {
+    display: flex;
+    width: 509px;
+    height: 369px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    /* background-color: chocolate; */
+}
+
+.userText {
+    display: flex;
+    width: 509px;
+    height: 18px;
+    padding-bottom: 4px;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    /* background-color: burlywood; */
+}
+
+.userText p {
+    color: var(--Dark-5, #5B7083);
+    font-family: SF Compact Display, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.userText p span {
+    color: var(--Black, #0F1419);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: SF Compact Display, sans-serif;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    width: 509px;
+    height: 18px;
+    /* background-color: rgb(199, 168, 128); */
+}
+
+.content p {
+    color: var(--Black, #0F1419);
+    font-family: SF Compact Display, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.media {
+    display: flex;
+    width: 509px;
+    height: 247px;
+    padding: 10px 0px;
+    align-items: flex-start;
+    align-self: stretch;
+    /* border-radius: 25px; */
+    /* background-color: #d31f79; */
+}
+
+.media__container {
+    display: flex;
+    width: 509px;
+    height: 247px;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 20px; */
+    /* border-radius: 25px; */
+    /* border: 1px solid var(--Dark6, #8899A6); */
+}
+
+.media__container img {
+    height: 247px;
+    flex: 1 0 0;
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.actions {
+    display: flex;
+    width: 509px;
+    height: 26px;
+    padding: 4px 0px;
+    align-items: flex-start;
+    align-self: stretch;
+    margin-top: 23px;
+    /* background-color: #e29090; */
+}
+
+.action__item {
+    display: flex;
+    width: 127px;
+    height: 18px;
+    padding-right: 86px;
+    align-items: flex-start;
+    gap: 10px;
+    /* background-color: #be99da; */
+}
+
+.dark__theme {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    padding: 1.674px 1.615px 1.513px 1.572px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.dark__theme p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 13px;
+    height: 16px;
+    /* color: #5B7083; */
+    /* color: rgb(128, 0, 0); */
+    font-family: SF Compact Display, sans-serif;
+    font-size: 15px;
+}
+
+.dark__theme span {
+    /* 6.2K */
+    /* position: absolute; */
+    width: 13px;
+    height: 16px;
+    /* left: 28px; */
+    /* top: 1px; */
+    font-family: SF Compact Display, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    /* line-height: 16px; */
+    /* identical to box height */
+    color: #F4245E;
+}
+
+.group svg {
+    display: flex;
+    width: 14.81px;
+    height: 14.81px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}

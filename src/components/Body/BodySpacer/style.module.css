@@ -1,0 +1,15 @@
+.bodySpacer {
+    display: flex;
+    height: 10px;
+    padding-bottom: 9px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    /* background-color: #b52cc7; */
+}
+
+.divider {
+    width: 598px;
+    height: 2px;
+    background: var(--Dark-7, #EBEEF0);
+}

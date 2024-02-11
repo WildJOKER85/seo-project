@@ -1,0 +1,227 @@
+.tweet__one {
+    display: flex;
+    width: 598px;
+    height: 379px;
+    padding: 0px 1px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+    /* background-color: #38d638; */
+}
+
+.container {
+    display: flex;
+    width: 584px;
+    height: 369px;
+    padding: 0px 15px;
+    align-items: flex-start;
+    gap: 10px;
+    /* background-color: #450d8d; */
+}
+
+.said {
+    display: flex;
+    height: 369px;
+    width: 49px;
+    align-items: flex-start;
+    align-self: stretch;
+    /* background-color: #3dddad; */
+}
+
+.avatar__medium {
+    display: flex;
+    width: 49px;
+    height: 49px;
+    padding: 1px 1px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+
+.avatar__medium img {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 99999px;
+}
+
+.main {
+    display: flex;
+    width: 509px;
+    height: 369px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    /* background-color: chocolate; */
+}
+
+.userText {
+    display: flex;
+    width: 509px;
+    height: 18px;
+    padding-bottom: 4px;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    /* background-color: burlywood; */
+}
+
+.userText p {
+    color: var(--Dark-5, #5B7083);
+    font-family: SF Compact Display, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.userText p span {
+    color: var(--Black, #0F1419);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: SF Compact Display, sans-serif;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    width: 509px;
+    height: 18px;
+    /* background-color: rgb(199, 168, 128); */
+}
+
+.content p {
+    color: var(--Black, #0F1419);
+    font-family: SF Compact Display, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.media {
+    display: flex;
+    width: 509px;
+    height: 247px;
+    padding: 10px 0px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.media__container {
+    display: flex;
+    width: 509px;
+    height: 247px;
+    justify-content: center;
+    align-items: center;
+}
+
+.media__container img {
+    height: 247px;
+    flex: 1 0 0;
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.actions {
+    display: flex;
+    width: 509px;
+    height: 26px;
+    padding: 4px 0px;
+    align-items: flex-start;
+    align-self: stretch;
+    margin-top: 23px;
+}
+
+.action__item {
+    display: flex;
+    width: 127px;
+    height: 18px;
+    padding-right: 86px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.dark__theme {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    padding: 1.674px 1.615px 1.513px 1.572px;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.dark__theme p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 13px;
+    height: 16px;
+    color: #5B7083;
+    /* color: green; */
+    font-family: SF Compact Display, sans-serif;
+    font-size: 15px;
+}
+
+.color__green {
+    color: green;
+}
+
+.dark__theme span {
+    /* 6.2K */
+    width: 13px;
+    height: 16px;
+    font-family: SF Compact Display, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #F4245E;
+}
+
+.group svg {
+    display: flex;
+    width: 14.81px;
+    height: 14.81px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.show__thread {
+    /* Show Thread */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 0px;
+    width: 120px;
+    height: 36px;
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.show__thread span {
+    width: 120px;
+    height: 16px;
+    font-family: SF Compact Display, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    /* Primary Blue */
+    color: #1DA1F2;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
