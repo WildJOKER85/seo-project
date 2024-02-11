@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     overflow: hidden;
     /* width: 100%; */
-    height: 92vh;
+    height: 100vh;
     /* position: relative; */
     background-image: linear-gradient(to bottom right, rgba(19, 101, 119, 0.836), rgba(230, 122, 45, 0.377));
 }
