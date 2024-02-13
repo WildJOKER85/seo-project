@@ -1,0 +1,119 @@
+.wrapperHeader {
+    height: 110px;
+    width: 100%;
+    /* background-color: #f54e4e; */
+}
+
+.headerBar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    background-color: black;
+    padding-left: 20px;
+}
+
+.headerBar ul li {
+    display: inline-flex;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.headerBar svg {
+    height: 24px;
+    width: 24px;
+    color: white;
+    margin-left: 330px;
+    cursor: pointer;
+}
+
+.headerLogoTitle {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(209, 204, 204);
+}
+
+.newsTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    width: 30%;
+    height: 70px;
+    /* background-color: #c97d7d; */
+}
+
+.newsTitle span:first-child {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(85, 113, 152);
+    text-transform: uppercase;
+}
+
+.newsTitle span:last-child {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.itemIcons {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 70px;
+    /* background-color: #7b4cb9; */
+    padding-left: 180px;
+}
+
+.mainSvg {
+    display: flex;
+    width: 250px;
+}
+
+.mainSvg ion-icon {
+    height: 24px;
+    width: 24px;
+    color: black;
+    cursor: pointer;
+}
+
+.svg-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    margin-right: 9px;
+    border-radius: 9999px;
+    background-color: rgb(162, 170, 170);
+}
+
+.signIn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    height: 70px;
+    padding-right: 30px;
+}
+
+.signIn ion-icon {
+    width: 35px;
+    height: 35px;
+    color: rgb(55, 88, 167);
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.signIn button {
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 2px dotted black;
+    background-color: rgb(209, 204, 204);
+}

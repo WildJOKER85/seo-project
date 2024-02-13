@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    /* background-color: #4ee44e; */
+}
