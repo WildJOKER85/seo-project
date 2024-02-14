@@ -1,5 +1,90 @@
 .wrapperRightBar {
     width: 30%;
     height: 100vh;
-    background-color: #d845e6;
+    /* background-color: #d845e6; */
+}
+
+.wrapperRightBar h1 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-bottom: 15px;
+}
+
+.personInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 46px;
+    padding-left: 90px;
+    /* background-color: #6472f0; */
+}
+
+.personInfo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+    margin-right: 10px;
+}
+
+.personName p:first-child {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+    margin-bottom: 2px;
+}
+
+.personName {
+    margin-bottom: 8px;
+}
+
+.personName p:nth-of-type(2) {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(163, 163, 157);
+
+}
+
+.wrapperRightBar p:nth-child(3) {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(109, 109, 109);
+    padding-left: 90px;
+    margin-bottom: 7px;
+}
+
+.shadowStyle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 55%;
+    height: 50px;
+    margin-left: 70px;
+    padding: 22px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 37px;
+}
+
+.shadowStyle p {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+}
+
+#balticDigital {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(109, 109, 109);
+    padding-left: 90px;
+    margin-bottom: 7px;
 }

@@ -1,5 +1,87 @@
 .wrapperAside {
     width: 35%;
     height: 100vh;
-    background-color: #e1eb58;
+    /* background-color: #e1eb58; */
+}
+
+.asideMedia {
+    height: 270px;
+    /* background-color: #e95f5f; */
+    margin-bottom: 13px;
+}
+
+.asideMedia img {
+    padding-top: 30px;
+    height: 100%;
+    width: 95%;
+}
+
+.wrapperAside p {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 38, 54);
+}
+
+.asideFutter {
+    display: flex;
+    margin-top: 48px;
+}
+
+.mediaRobot {
+    height: 138px;
+    width: 30%;
+    margin-right: 15px;
+}
+
+.mediaRobot img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#firstAsideLine {
+    background: rgb(125, 52, 107);
+    display: inline-block;
+    font-size: 11px;
+    padding: 3px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+#secondAsideLine {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(67, 67, 65);
+    margin-bottom: 14px;
+}
+
+#threeLine {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(88, 88, 86);
+    margin-bottom: 19px;
+}
+
+.futterLine {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+.futterLine span {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 110px;
+    color: rgb(67, 67, 65);
+}
+
+.futterLine ion-icon {
+    width: 12px;
+    height: 12px;
+    /* padding-left: 20px; */
 }
