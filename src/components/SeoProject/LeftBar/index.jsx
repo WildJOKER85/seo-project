@@ -2,32 +2,41 @@ import React from "react";
 import "./style.css";
 import news from "../../../assets/news-prog.jpg";
 
+const textItems = [
+    { text: "Новости", clock: "сегодня, в 11:42", update: "Google рассказал о новых функциях Ads API v2_1" },
+    { text: "Новости", clock: "сегодня, в 11:11", update: "Baltik Digital Days 2019: объявлены лауреаты премии за достижения в интеренет-маркетинге" },
+    { text: "Новости", clock: "сегодня, в 11:03", update: "Google устранил баг с индексацией" },
+    { text: "Статьи", clock: "вчера, в 11:42", update: "Планы на неделю: учимся продвигать бренды, роводить A/B-тестирование и не только" },
+]
+
 const LeftBar = () => {
     return (
         <div className="wrapperLeftBar">
             <div className="leftBarTitle">
                 <h1>Главное</h1>
                 <div>
-                    <p><span>Новости</span><span id="textClock">сегодня, в 11:42</span></p>
-                    <p>Google рассказал о новых функциях Ads API v2_1</p>
-                </div>
-                <div>
-                    <p><span>Новости</span><span id="textClock">сегодня, в 11:11</span></p>
-                    <p>Baltik Digital Days 2019: объявлены лауреаты премии <br />
-                        за достижения в интеренет-маркетинге
-                    </p>
-                </div>
-                <div>
-                    <p><span>Новости</span><span id="textClock">сегодня, в 11:03</span></p>
-                    <p>Google устранил баг с индексацией</p>
-                </div>
-                <div>
-                    <p><span id="bgColorLastChild">Статьи</span><span id="textClock">вчера, в 11:42</span></p>
-                    <p>Планы на неделю: учимся продвигать бренды, <br />
-                        проводить A/B-тестирование и не только
-                    </p>
+                    {textItems.map(item => {
+                        let updateText = item.update.replace('бренды,', 'бренды, <br />');
+                        updateText = updateText.replace('премии', 'премии <br />');
+
+                        if (item.text === "Статьи") {
+                            return (
+                                <div>
+                                    <p><span id="blueText">{item.text}</span><span id="textClock">{item.clock}</span></p>
+                                    <p dangerouslySetInnerHTML={{ __html: updateText }} />
+                                </div>
+                            )
+                        }
+                        return (
+                            <div>
+                                <p><span>{item.text}</span><span id="textClock">{item.clock}</span></p>
+                                <p dangerouslySetInnerHTML={{ __html: updateText }} />
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
+
             <div className="leftBarFutter">
                 <div className="media">
                     <img src={news} alt="" />

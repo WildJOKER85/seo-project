@@ -39,11 +39,11 @@
     line-height: 2;
 }
 
-.leftBarTitle div p span#bgColorLastChild {
+/* .leftBarTitle div p span#bgColorLastChild {
     background-color: rgb(45, 88, 172);
     font-size: 11px;
     padding-right: 10px;
-}
+} */
 
 #textClock {
     font-size: 11px;
@@ -100,4 +100,10 @@
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(105, 101, 101);
+}
+
+#blueText {
+    background-color: rgb(45, 88, 172);
+    font-size: 11px;
+    padding-right: 10px;
 }

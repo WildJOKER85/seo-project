@@ -56,12 +56,12 @@ const sidebarItems = [,
     }
 ];
 
-const textFunc = (item) => {
-    if (item.name === "Home") {
-        return "Home";
-    }
-    return "Home"
-}
+// const textFunc = (item) => {
+//     if (item.name === "Home") {
+//         return "Home";
+//     }
+//     return "Home"
+// }
 
 export function SidebarItem() {
     return (

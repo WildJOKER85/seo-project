@@ -1,23 +1,38 @@
 import React from "react";
 import "./style.css";
-// import teacher from "../../assets/teacher-working.avif";
+import image from "../../assets/image.jpg";
 
 const Test = () => {
     return (
         <div className="wrapper">
-            <div className="block">
-                <div className="block__row">
-                    <div className="block__column block__column_1">
-                        <div className="block__item">1</div>
-                    </div>
-                    <div className="block__column block__column_2">
-                        <div className="block__item">2</div>
-                    </div>
-                    <div className="block__column block__column_3">
-                        <div className="block__item">3</div>
+            <div className="content">
+                <div className="hi">
+                    <div className="container">
+                        <div className="hi__row">
+                            <div className="hi__body">
+                                <div className="hi__title"></div>
+                                <ul className="hi__list">
+                                    <li>У тебя все получится!</li>
+                                    <li>Никогда не здавайся!</li>
+                                    <li>Сегодня ты уже знаешь больше чем вчера!</li>
+                                    <li>Спасибо тебе за поддержку!</li>
+                                </ul>
+                            </div>
+                            <div className="hi__image">
+                                <img src={image} alt="" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <futter className="footer">
+                <div className="container">
+                    <div className="footer__row">
+                        <div className="footer__text">Фрилансер по жизни 2019</div>
+                    </div>
+                </div>
+            </futter>
         </div>
     )
 }
